@@ -1,0 +1,35 @@
+body {
+  background-image: url("images/anh1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+  color: antiquewhite;
+  position: absolute;
+  top: 7%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);
+}
+
+.introduce {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgb(15, 11, 6);
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#anh-dau {
+     position: fixed;
+     top:22%;
+     left: 60%;
+     transform: (25%,40%);
+      
+}

@@ -27,7 +27,7 @@ h1 {
 }
 
 .image-container {
-  float: right;         
+  left: 500px;         
   text-align: center;  
   margin: 10px;        
 }

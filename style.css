@@ -28,7 +28,8 @@ h1 {
 
 .image-container {
   position: absolute;
-  left:50%;       
+  top:30%;
+  left:60%%;       
   text-align: center;  
   margin: 10px;         
 }

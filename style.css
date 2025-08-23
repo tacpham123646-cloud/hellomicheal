@@ -26,10 +26,19 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-#anh-dau {
-     position: fixed;
-     top:22%;
-     left: 50%;
-     transform: (25%,40%);
-      
+.image-container {
+  position: relative; 
+  display: inline-block;
+}
+
+.image-container .caption {
+  position: absolute;
+  bottom: 10px;   
+  left: 50%;      
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
